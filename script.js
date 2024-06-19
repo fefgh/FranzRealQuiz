@@ -39,14 +39,14 @@ const quizData = [
             e: { text: "je l'adore", points: 5 }
         }
     },
-    {
+        {
         question: "Est-ce que vous êtes sportif?",
         answers: {
             a: { text: "non", points: 1 },
             b: { text: "un peu", points: 2 },
             c: { text: "oui ", points: 3 },
         }
-    }
+    },
     // Weitere Fragen können hier hinzugefügt werden
 ];
 
@@ -112,8 +112,7 @@ function showResults() {
     } else if (totalPoints >= 11 && totalPoints <= 15) {
         job = "Le Volley";
     } else if (totalPoints >= 16 && totalPoints <= 20) {
-        job = "Le B
-            Foot";
+        job = "Le Foot";
     }
     // Weitere Jobkategorien können hier hinzugefügt werden
 
